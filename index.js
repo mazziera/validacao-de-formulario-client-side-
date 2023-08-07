@@ -17,5 +17,9 @@ form.addEventListener('submit', function(event){
     }else {
         errorAlert.style.visibility ='hidden';
         inputEmail.style.borderColor = 'hsl(109, 80%, 48%)';
+
+        form.submit();
     }
+
+    
 });
