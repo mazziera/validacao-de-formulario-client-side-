@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/desktop.css">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+</head>
+<body>
+<main>
+  <section class="container">
+
+    <div class="image">
+      <img src="./src/images/logo.svg" alt="PING. Logo" class="logo">
+    </div>
+
+      <section class="header">
+        <h1>We are launching <span>soon!</span></h1>
+
+        <p>Subscribe and get notified</p>
+      </section>
+
+      <form action="index.html" name="form" class="form">
+        <input type="email" placeholder="Your email adress..." class="email-field" required> 
+        
+        <p class="error-alert"> Please, provide a valid email adress</p>
+
+        <button type="submit" class="submit"> Notify Me</button>
+        
+      </form>
+
+      <section class="illustration">
+        <img src="./src/images/illustration-dashboard.png" alt="illustration dashboard">
+      </section>
+
+      <section class="social-links">
+        <a href="#" target="_blank" rel="external">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+
+        <a href="#" target="_blank" rel="external">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      
+        <a href="#" target="_blank" rel="external">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </section>
+      
+      <footer class="copyright">
+        <p> &copy; Copyright Ping. All rights reserved. </p>
+      </footer>
+  </section>
+</main>
+<script 
+    type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+</script>
+<script 
+    nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+</script>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@media (min-width: 900px){
+    .container{
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .container .image{
+        width: 100px;
+        padding: 15px 0;
+    }
+
+    .container .image .logo{
+        width: 100%;
+    }
+
+    .container .header h1{
+        font-size: 40px;
+    }
+
+    .container .header p{
+        font-size: 20px;
+    }
+
+    .container .form{
+        max-width: 100%;
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .container .form .email-field{
+        width: 40%;
+        padding: 14px;
+        margin: 0 10px 0 100px;
+    }
+
+    .container .form .error-alert{
+        padding: 0 0 0 100px; 
+        position: absolute;
+        top: 50px;
+    }
+
+    .container .form .submit{
+        width: 30%;
+        margin-bottom: 0;
+        font-size: 17px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .container .form .submit:hover{
+        background-color: hsl(209, 33%, 12%);
+    }
+
+    .container .illustration{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .illustration img{
+        max-width: 600px;
+        
+    }
+
+    .container .social-links a{
+        margin-right: 20px;
+        font-size: 30px;
+        color: hsl(223, 87%, 63%);
+    }
+    
+    .container .social-links a:hover{
+        color: hsl(209, 33%, 12%);
+    }
+    
+}
